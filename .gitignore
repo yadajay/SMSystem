@@ -1,0 +1,42 @@
+# Ignore build output directories
+bin/
+obj/
+
+# User-specific files (e.g., Visual Studio, Rider, etc.)
+.vs/
+.idea/
+.vscode/
+
+# User-specific and system files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# .NET Core / .NET 5+ specific files
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# ASP.NET Core
+wwwroot/
+
+# Docker-specific files
+Dockerfile*
+.dockerignore
+
+# Azure Functions and related artifacts
+local.settings.json
+
+# NPM packages (if using Node.js with .NET)
+node_modules/
+
+# .NET 8 SDK-specific cache files (you may not need all of these depending on usage)
+.vs2019/
+.vs2022/
